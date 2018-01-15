@@ -1,0 +1,204 @@
+/*
+* @Author: Dell
+* @Date:   2018-01-06 16:37:11
+* @Last Modified by:   Dell
+* @Last Modified time: 2018-01-11 17:56:57
+*/
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0.0);
+}
+
+@font-face {
+  font-family: 'iconfont';  /* project id 524961 */
+  src: url('http://at.alicdn.com/t/font_524961_na61e6hultprpb9.eot');
+  src: url('http://at.alicdn.com/t/font_524961_na61e6hultprpb9.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_524961_na61e6hultprpb9.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_524961_na61e6hultprpb9.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_524961_na61e6hultprpb9.svg#iconfont') format('svg');
+}
+
+.iconfont{
+	font-family: 'iconfont';
+	font-style: normal;
+}
+
+
+header{
+	width: 100%;
+	height: 0.84rem;
+	/* background: red; */
+	overflow: hidden;
+	border-bottom: 0.01rem solid #f2f2f2;
+}
+.sousuo{
+	display: block;
+	width: 4.72rem;
+	height: 0.42rem;
+	background: #ededed;
+	margin-top:0.21rem ;
+	margin-left: 0.12rem;
+	float: left;
+}
+.sousuo .box{
+   width: 0.42rem;
+   height: 0.42rem;
+   /* background: pink; */
+   float: left;
+   font-size: 0.2rem;
+   color: #9a9a9a;
+   text-align: center;
+   line-height: 0.42rem
+}
+.box1{
+	width: 1.20rem;
+	height: 0.17rem;
+	/* background: blue; */
+	float: left;
+	margin-top: 0.13rem;
+	font-size: 0.16rem;
+	color: #9a9a9a;
+	line-height: 0.17rem;
+}
+.xinxi{
+	display: block;
+	width: 0.5rem;
+	height: 0.42rem;
+	/* background: yellow; */
+	float: right;
+	margin-top: 0.21rem;
+	line-height: 0.42rem;
+	text-align: center;
+	font-size: 0.2rem;
+	color: #9a9a9a;
+	text-decoration: none;
+}
+.zj{
+	width: 100%;
+	height: 7.65rem;
+	/* background: yellow; */
+	border-bottom: 0.01rem solid #f2f2f2;
+}
+.zj-left{
+	width: 1.35rem;
+	height: 100%;
+	/* background: red; */
+	border-right: 0.01rem solid #f2f2f2;
+	float: left;
+}
+.zj-left li{
+	font-size: 0.2rem;
+	color: #6e6e6e;
+	line-height: 0.80rem;
+	text-align: center;
+}
+.zj-left li:nth-child(3){
+	color: red;
+}
+.zj-right{
+	width: 4.04rem;
+	height: 100%;
+	/* background: yellow; */
+	float: right;
+}
+.zj-r-top{
+	width: 4.04rem;
+	height: 0.9rem;
+	/* background:red; */
+	font-size: 0.18rem;
+	color: #333;
+	line-height: 0.9rem;
+	text-align: center;
+}
+.zj-r-bottom{
+	width: 100%;
+	height: 4.35rem;
+	/* background: red; */
+    
+}
+.zj-r-bottom .img-box{
+	width: 33.33%;
+	height: 1.45rem;
+	/* background: yellow; */
+	float: left;
+	text-decoration: none;
+}
+.zj-r-bottom .img-box img{
+	display: block;
+	width: 0.8rem;
+	height: 0.88rem;
+	/* background: red; */
+	margin: 0.13rem auto;
+}
+.zj-r-bottom .text-box{
+	width: 100%;
+	height: 0.3rem;
+	/* background: red; */
+	font-size: 0.16rem;
+	color: #a2a2a2;
+	line-height: 0.3rem;
+	text-align: center;
+}
+.zj-r-foot{
+	width: 100%;
+	height: 1.6rem;
+/* 	background: red; */
+	overflow: hidden;
+}
+.gj-sousuo{
+	display: block;
+	width: 2.24rem;
+	height: 0.58rem;
+/* 	background: yellow; */
+	margin: 0.51rem auto;
+	font-size: 0.16rem;
+	color: #a2a2a2;
+	line-height: 0.58rem;
+	text-align: center;
+	text-decoration: none;
+}
+
+.zuixiabian{
+    width: 100%;
+    height: 0.75rem;
+    background: #fff;
+    position: fixed;
+    bottom: 0;
+    border-bottom: 0.4rem solid #fff;
+}
+.biaoqian{
+	display: block;
+	width: 100%;
+	height: 0.50rem;
+	/* background: yellow; */	
+	text-decoration: none;
+	display: flex;
+	justify-content: space-around;
+	padding-top: 0.2rem;
+}
+.biaoqian i:nth-child(2){
+	font-weight: bold;
+}
+.iconfont{
+	font-family: 'iconfont';
+	font-style: normal;
+	font-size: 0.40rem;
+	display: flex;
+	/* justify-content: space-around; */
+	color: red;
+}
+.sige{
+	font-size: 0.12rem;
+	color: #606060;
+	display: flex;
+	justify-content: space-around;
+}
+.text11{
+	text-decoration: none;
+    font-size: 0.12rem;
+    color: #333;
+}
+
+
+

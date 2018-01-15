@@ -1,0 +1,367 @@
+/*
+* @Author: Dell
+* @Date:   2018-01-07 16:53:57
+* @Last Modified by:   Dell
+* @Last Modified time: 2018-01-11 18:01:06
+*/
+@font-face {
+  font-family: 'iconfont';  /* project id 524961 */
+  src: url('http://at.alicdn.com/t/font_524961_gwmshluuxdh1tt9.eot');
+  src: url('http://at.alicdn.com/t/font_524961_gwmshluuxdh1tt9.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_524961_gwmshluuxdh1tt9.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_524961_gwmshluuxdh1tt9.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_524961_gwmshluuxdh1tt9.svg#iconfont') format('svg');
+}
+
+.iconfont{
+	font-family: 'iconfont';
+	font-style: normal;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0.0);
+}
+
+header{
+	width: 100%;
+	height: 0.85rem;
+	/* background: red; */
+}
+.text{
+	width: 0.85rem;
+	height: 0.85rem;
+	/* background: pink; */
+	float: left;
+	font-size: 0.25rem;
+	color: #696969;
+	line-height: 0.85rem;
+	text-decoration: none;
+	text-align: center;
+}
+.text1{
+	width: 3.5rem;
+	height: 0.85rem;
+	/* background: blue; */
+	float: left;
+	font-size: 0.3rem;
+	color: #333;
+	line-height: 0.85rem;
+	text-decoration: none;
+}
+.text2{
+	width: 0.5rem;
+	height: 0.85rem;
+	/* background: pink; */
+	float: left;
+	font-size: 0.25rem;
+	color: #696969;
+	line-height: 0.85rem;
+	text-decoration: none;
+	text-align: center;
+}
+.text3{
+	width: 0.55rem;
+	height: 0.85rem;
+	/* background: pink; */
+	float: left;
+	font-size: 0.25rem;
+	color: #696969;
+	line-height: 0.85rem;
+	text-decoration: none;
+	text-align: center;
+}
+.qu{
+	width: 100%;
+	height: 0.5rem;
+	/* background: red; */
+	border-top: 0.01rem solid #c1c1c1;
+	border-bottom: 0.01rem solid #c1c1c1;
+}
+.text4{
+	width: 1.45rem;
+	height: 0.5rem;
+	/* background: pink; */
+	float: left;
+	font-size: 0.15rem;
+	color: #333;
+	line-height: 0.5rem;
+	text-align: center;
+}
+.text5{
+	width: 1.00rem;
+	height: 0.5rem;
+	/* background: pink; */
+	float: right;
+	font-size: 0.15rem;
+	color: #c1c1c1;
+	line-height: 0.5rem;
+	text-align: center;
+}
+.shenma{
+	width: 100%;
+	height: 1.2rem;
+	/* background: red; */
+	overflow: hidden;
+	border-bottom: 0.01rem solid #c1c1c1;
+}
+.img-box{
+	width: 1.0rem;
+	height: 1.1rem;
+	/* background: pink; */
+	float: left;
+	margin-top: 0.1rem;
+	margin-left: 0.1rem;
+}
+img{
+	width: 100%;
+	height: 100%;
+
+}
+.text11{
+	width: 3.0rem;
+	height: 1.0rem;
+	/* background: blue; */
+	float: left;
+	margin-top: 0.1rem;
+
+}
+.text12{
+	width: 2.2rem;
+	height: 0.4rem;
+	font-size: 0.18rem;
+	color: #333;
+	line-height: 0.4rem;
+}
+.text13{
+	width: 1.6rem;
+	height: 0.25rem;
+	font-size: 0.2rem;
+	color: #d38793;
+	line-height: 0.25rem;
+}
+.text14{
+	width: 3.0rem;
+	height: 0.35rem;
+	font-size: 0.18rem;
+	color: #d38793;
+	line-height: 0.35rem;
+}
+.text15{
+	width:0.75rem;
+	height: 0.3rem;
+	float: right;
+	margin-top: 0.17rem;
+	margin-right: 0.16rem;
+	font-size: 0.2rem;
+	color: #d38793;
+	line-height: 0.3rem;
+}
+.chengzhang{
+	width: 100%;
+	height: 0.75rem;
+	/* background: red; */
+}
+.text16{
+	width: 1.5rem;
+	height: 0.4rem;
+	margin-left: 0.2rem;
+	font-size: 0.2rem;
+	color: #d38793;
+	line-height: 0.4rem;
+}
+.text17{
+	width: 1.5rem;
+	height: 0.35rem;
+	margin-left: 0.2rem;
+	font-size: 0.2rem;
+	color: red;	
+}
+.bianhao{
+	width: 100%;
+	height: 0.88rem;
+	/* background: red; */
+	border-top: 0.1rem solid #f0f0f0;
+	border-bottom: 0.1rem solid #f0f0f0;
+}
+.text18{
+	width: 1.5rem;
+	height: 0.44rem;
+	margin-left: 0.2rem;
+	font-size: 0.2rem;
+	color: #d38793;
+	line-height: 0.44rem;
+}
+.text19{
+	width: 2.5rem;
+	height: 0.44rem;
+	margin-left: 0.2rem;
+	font-size: 0.2rem;
+	color: #d38793;	
+}
+.jineng{
+	width: 100%;
+	height: 3.1rem;
+	/* background: red; */
+}
+.text20{
+    width: 100%;
+    height: 0.6rem;
+   /*  background: pink; */
+    overflow: hidden;
+}
+.text21{
+	width: 0.5rem;
+	height: 0.23rem;
+	/* background: yellow; */
+	margin-top: 0.2rem;
+	margin-left: 0.15rem;
+    border-left: 0.04rem solid #d56c70;
+    font-size: 0.2rem;
+    color: #333;
+    line-height: 0.23rem;
+    text-align: center;
+}
+.jn-img{
+	width: 5.1rem;
+	height: 2.5rem;
+	/* background: pink; */
+	margin: 0 0.15rem;
+}
+.jn-tupian{
+	width: 2.55rem;
+	height: 0.83rem;
+	/* background: yellow; */
+	float: left;
+}
+.tupian{
+	width: 0.6rem;
+	height: 0.6rem;
+	/* background: blue; */
+	margin-top: 0.04rem;
+	float: left;
+}
+.tupian img{
+	margin-bottom: 0.5rem;
+}
+.text22{
+	width: 1.5rem;
+	height: 0.6rem;
+	/* background: red; */
+	float: left;
+	font-size: 0.2rem;
+	color: #333;
+	line-height: 0.6rem;
+	margin-top: 0.04rem;
+}
+.shuxin{
+	width: 5.1rem;
+	height: 3.60rem;
+	/* background: red; */
+	margin: 0 0.15rem;
+	border-bottom: 0.06rem solid #f9f9f9;
+}
+.t-box{
+	width: 100%;
+	height: 0.67rem;
+	/* background: yellow; */
+	overflow: hidden;
+}
+.text23{
+    width: 0.67rem;
+    height: 0.23rem;
+   /*  background: red; */
+    font-size: 0.2rem;
+    color: #333;
+    line-height: 0.23rem;
+    border-left: 0.03rem solid #e8685f;
+    margin-top: 0.21rem;
+    text-align: center;
+}
+.box-bottom{
+    width: 100%;
+    height: 2.94rem;
+   /*  background: yellow; */
+    overflow: hidden;
+}
+.text24{
+	width: 2.55rem;
+	height: 0.42rem;
+/* 	background: red; */
+	float: left;
+	font-size: 0.2rem;
+	color: #333;
+}
+.zuixiabian{
+	width: 100%;
+	height: 0.75rem;
+	background: #fff;
+	position: fixed;
+	bottom: 0;
+	border-bottom: 0.2rem solid #fff;
+}
+.zxb-left{
+	width: 2.7rem;
+	height: 100%;
+	/* background: yellow; */
+	float: left;
+}
+.zxb-1{
+	display: block;
+	width: 0.89rem;
+	height: 100%;
+	/* background: pink; */
+    float: left;
+    border-right: 0.01rem solid #f1f1f1;
+    text-decoration: none;
+}
+
+.zxb-1-top{
+    width: 0.5rem;
+    height: 0.4rem;
+   /*  background: red; */
+    margin:0.07rem auto;
+    font-size: 0.33rem;
+    color: #636363;
+    line-height: 0.4rem;
+    text-align: center;
+}
+.zxb-1-bottom{
+	width: 100%;
+	height: 0.35rem;
+	font-size: 0.13rem;
+	color: #636363;
+	/* line-height: 0.35rem; */
+	text-align: center;
+}
+.zxb-right{
+	width: 2.7rem;
+	height: 0.75rem;
+	/* background: yellow; */
+	float: right;
+}
+.gouwuche{
+	display: block;
+	width: 1.35rem;
+	height: 0.75rem;
+	background: #f0b211;
+	float: left;
+    font-size: 0.14rem;
+    color: #fff;
+    line-height: 0.75rem;
+    text-align: center;
+    text-decoration: none;
+}
+.goumai{
+	display: block;
+	width: 1.35rem;
+	height: 0.75rem;
+	background: #e76766;
+	float: left;
+    font-size: 0.14rem;
+    color: #fff;
+    line-height: 0.75rem;
+    text-align: center;
+    text-decoration: none;
+}
